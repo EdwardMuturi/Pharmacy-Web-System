@@ -1,0 +1,54 @@
+html, body{
+  max-height: 100%;
+}
+body{
+  border: 0;
+  margin: 0;
+  background: #fff;
+  color: #000;
+  font-size: 14px;
+}
+
+.header{
+  text-align: center;
+}
+.logout{
+  float: right;
+}
+form{
+  font-weight: 600;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+footer{
+  margin-top: 100px;
+  background: #000;
+  color: #fff;
+  height: 160px;
+}
+footer .address{
+  padding-top: 10px;
+}
+footer .company{
+  text-align: center;
+}
+footer ul li{
+  list-style: none;
+}
+footer a:link,
+footer a:visited{
+  text-decoration: none;
+  color: #fff;
+}
+footer a:hover {
+  text-decoration: none;
+  color: #0275d8;
+}
+footer a:active{
+  text-decoration: none;
+  color: #fff;
+}
